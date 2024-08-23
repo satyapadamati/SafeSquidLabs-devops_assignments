@@ -39,27 +39,4 @@ To monitor only network activity and disk usage, you can run:
 ./system_monitor.sh -network -disk
 
 
-# Security Audit and Server Hardening Script
-
-## Overview
-This script automates security audits and server hardening on Linux servers. It includes checks for common security vulnerabilities, IP configurations, firewall settings, and implements recommended hardening measures.
-
-## Features
-- User and Group Audits
-- File and Directory Permissions Audit
-- Service Audits
-- Firewall and Network Security Audit
-- IP and Network Configuration Checks
-- Security Updates and Patching
-- Log Monitoring
-- Server Hardening Steps
-- Custom Security Checks
-- Reporting and Alerting
-
-## Usage
-1. **Make the script executable:**
-   ```bash
-   chmod +x security_audit_and_hardening.sh
-To run the script:
-./security_audit_and_hardening.sh
-
+ 
